@@ -1,0 +1,512 @@
+<html>
+	<head>
+		<title>Home</title>
+		<!-- import our own stylesheet -->
+		<link rel="stylesheet" type="text/css" href="styles.css"/>	
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- import jQuery -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+		<!--other-->
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	  <!--style-->
+	  
+	</head>
+	<body>
+
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#"><img src = "logo.jpeg" style = "height:35px;width:45px;"></img></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			  <ul class="nav navbar-nav">
+				<li><a href="#">Home</a></li>
+			  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Courses<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#python">Python</a></li>
+				  <li><a href="#C">C</a></li>
+				  <li><a href="#DS">Data Structures</a></li>
+				  <li><a href="#DBMS">DBMS</a></li>
+				  <li><a href="#dm">Discrete Mathematics</a></li>
+				  <li><a href="#apt">Quantitative Aptitude</a></li>
+				  <li><a href="#web">Web Design</a></li>
+				</ul>
+			  </li>
+				<li><a href="#about">About us</a></li>
+			</ul>
+		  </div>
+		</nav>
+	  
+		<div class="container">
+		
+			<div class="slideshow-container">
+
+			<div class="mySlides">
+			  <div class="numbertext">1 / 8</div>
+			  <img src="main_poster.jpg" style="width:100%">
+			  <div class="text"><a href = "https://forms.gle/fKb2BfXBeAfETC1k6"<button type = "button" class = "btn btn-primary">Register Now!!</button></a></div>
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">2 / 8</div>
+			  <img src="0001.jpg" style="width:100%">
+			  <div class="text"><a href = "https://forms.gle/fKb2BfXBeAfETC1k6"<button type = "button" class = "btn btn-primary">Register Now!!</button></a></div>
+			</div>
+
+			<div class="mySlides">
+			  <div class="numbertext">3 / 8</div>
+			  <img src="0002.jpg" style="width:100%">
+			  <div class="text"><a href = "https://forms.gle/fKb2BfXBeAfETC1k6"<button type = "button" class = "btn btn-primary">Register Now!!</button></a></div>
+			</div>
+			<div class="mySlides">
+			  <div class="numbertext">4 / 8</div>
+			  <img src="0003.jpg" style="width:100%">
+			  <div class="text"><a href = "https://forms.gle/fKb2BfXBeAfETC1k6"<button type = "button" class = "btn btn-primary">Register Now!!</button></a></div>
+			</div>
+			<div class="mySlides">
+			  <div class="numbertext">5 / 8</div>
+			  <img src="0004.jpg" style="width:100%">
+			  <div class="text"><a href = "https://forms.gle/fKb2BfXBeAfETC1k6"<button type = "button" class = "btn btn-primary">Register Now!!</button></a></div>
+			</div>
+			<div class="mySlides">
+			  <div class="numbertext">6 / 8</div>
+			  <img src="0005.jpg" style="width:100%">
+			  <div class="text"><a href = "https://forms.gle/fKb2BfXBeAfETC1k6"><button type = "button" class = "btn btn-primary">Register Now!!</button></a></div>
+			</div>
+			<div class="mySlides">
+			  <div class="numbertext">7 / 8</div>
+			  <img src="0006.jpg" style="width:100%">
+			  <div class="text"><a href = "https://forms.gle/fKb2BfXBeAfETC1k6"<button type = "button" class = "btn btn-primary">Register Now!!</button></a></div>
+			</div>
+			<div class="mySlides">
+			  <div class="numbertext">8 / 8</div>
+			  <img src="0007.jpg" style="width:100%">
+			  <div class="text"><a href = "https://forms.gle/fKb2BfXBeAfETC1k6"<button type = "button" class = "btn btn-primary">Register Now!!</button></a></div>
+			</div>
+			<a class="prev" onclick="plusSlides(-1)" style = "color:blue">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)" style = "color:blue">&#10095;</a>
+
+			</div>
+			<br>
+
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+			  <span class="dot" onclick="currentSlide(4)"></span>
+			  <span class="dot" onclick="currentSlide(5)"></span>
+			  <span class="dot" onclick="currentSlide(6)"></span>
+			  <span class="dot" onclick="currentSlide(7)"></span>
+			  <span class="dot" onclick="currentSlide(8)"></span>
+			</div>
+		<hr></hr>
+		<div class = "row">
+			<div><center><h2>Courses<h2></center></div>
+			<hr></hr>
+			<div class="col-md-1" ></div>
+			<div class="col-md-5 box " id = "DS">	
+				<div class="img_container">
+				  <img src="ds.png" alt="Snow" style="width:100%; height:150px;">
+				  <div style = "color:red;text-align:center;"><h3>Data Structures using Python</h3></div>
+				</div>
+				<button class="accordion">Arrays</button>
+				<div class="panel">
+				  <p><b>Introduction:</b><br>
+					Types Of Arrays.
+					Operations - Searching,Insertion,Deletion,Comparing Arrays With Other DataStructures
+				</p>
+				<p><b>Problems:</b><br>Sum of array elements,Sorting and Searching,Left And Right Rotation,Maximum Sum formed by Continuos subsequence etc
+				</div>
+				<button class="accordion">Strings</button>
+				<div class="panel">
+				  <p><b>Introduction:</b><br>operations: searching,insertion,join,slicing</p>
+				  <p><b>Problems:</b><br>Palindrome,Anagram,Next Permutation etc</p>
+				</div>
+				<button class="accordion">Stack</button>
+				<div class="panel">
+				  <p><b>Introduction:</b><br>operations:push,pop</p>
+				  <p><b>Problems:</b><br>Infix to postfix,Balanced Paranthesis,Max element in Stack,Text Editor(undo,redo)etc</p>
+				</div>
+				<button class="accordion">Queue</button>
+				<div class="panel">
+				  <p><b>Introduction:</b><br>operations:enqueue,dequeue<br>Types: Circular Queues</p>
+				  <p><b>Problems:</b><br>Implementation of queues using linked list,Queue using Two Stacks etc</p>
+				</div>
+				<button class="accordion">Linked List</button>
+				<div class="panel">
+				  <p><b>Introduction:</b><br>operations:insertion,deletion,searching,time complexity of operations<br>Types: doubly linked list,circular linked list</p>
+				  <p><b>Problems:</b><br>Floyd Cycle Detection Algorithm,Merge point of two linked list,Two linked lists are equal or not etc</p>
+				</div>
+				<button class="accordion">Tree</button>
+				<div class="panel">
+				  <p><b>Introduction:</b><br>Types:BINARY TREE,BST,AVL TREE,B-TREE<br>operations:insertion,deletion,searching</p>
+				  <p><b>Problems:</b><br>Height of a binary tree,inorder,preorder,postorder,level-order traversal etc</p>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+		
+			<div class="col-md-5 box" id = "DBMS">	
+				<div class="img_container">
+				  <img src="dbms.jpg" alt="Snow" style="width:100%; height:200px;">
+				  <div style = "color:red;text-align:center;"><h3>Database Management System</h3></div>
+				</div>
+				<hr></hr>
+				<button class="accordion">Introduction</button>
+				<div class="panel">
+				<ul>
+				  <li>Characteristic of database</li>
+				  <li>Advantages of the database</li>
+				  <li>Relational model constraints</li></ul>
+				</div>
+				<button class="accordion">SQL</button>
+				<div class="panel">
+					<ul>
+					<li>Data types</li>
+					<li>Change statements in SQL </li>
+					<li>Basic Queries in SQL </li>
+					<li>Insert,update and delete queries</li>
+					<li>Views and complex queries  </li></ul>
+				</div>
+				<button class="accordion">ER Model</button>
+				<div class="panel">
+					<ul>
+					<li>Entity type ,Entity set ,Attribute ,Relationship type</li>
+					<li>Converting Relational model to ER modle</li>
+					<li>Converting ER model to Relational model</li></ul>
+				</div>
+				<button class="accordion">Normal Forms</button>
+				<div class="panel">
+				  <ul><li>1NF to BCNF</li></ul>
+				</div>
+				<button class="accordion">Transaction</button>
+				<div class="panel">
+					<ul><li>ACID properties of Transaction</li>
+					<li>Characterizing schedules based on recoverability and serializability</li>
+					<li>An overview of NoSQL</li>
+				</div>
+			</div>
+		</div>
+	<br><br><br>
+		<div class = "row">
+			<div class="col-md-1"></div>
+			<div class = "col-md-5 box" id = "C">
+			<div class="img_container">
+			  <img src="c.jpg" alt="Snow" style="width:100%; height:150px;">
+			  <div style = "color:red;text-align:center;"><h3>C programming</h3></div>
+			</div>
+				<button class="accordion">Week-1</button>
+				<div class="panel">
+					<ul>
+					  <li>Introduction to C</li>
+					  <li>Flow Controls</li>
+					  <li>Programs on Hackerrank</li></ul>
+				</div>
+			
+				<button class="accordion">Week-2</button>
+				<div class="panel">
+					<ul>
+					  <li>Functions</li>
+					  <li>Arrays</li>
+					  <li>Programs on Hackerrank</li></ul>
+				</div>
+				<button class="accordion">Week-3</button>
+				<div class="panel">
+					<ul>
+					  <li>Pointers</li>
+					  <li>Strings and String Functions</li>
+					  <li>Programs on Hackerrank</li></ul>
+				</div>
+				<button class="accordion">Week-4</button>
+				<div class="panel">
+					<ul>
+					  <li>Structures and unions</li>
+					  <li>File programs</li>
+					  <li>Enums,Standard Libraries</li>
+					  <li>Programs on Hackerrank</li></ul>
+				</div>
+				<button class="accordion">Week-5</button>
+				<div class="panel">
+					<ul>
+					  <li>Practice Problems from Hackerrank</li>
+					  <li>MCQs on C</li>
+					  <li>Intro to Competitive Programming</li></ul>
+				</div>
+				<button class="accordion">Week-6</button>
+				<div class="panel">
+					<ul>
+					  <li>More focus on codechef</li>
+					  <li>MCQs on C</li>
+				</div>
+			</div>
+			<div class = "col-md-1"></div>
+		<div class = "col-md-5 box" id = "python">
+			<div class="img_container">
+			  <img src="python.jpg" alt="Snow" style="width:100%; height:200px;">
+			  <div style = "color:red;text-align:center;"><h3>Python programming</h3></div>
+			</div>
+			<hr></hr>
+				<button class="accordion">Week-1</button>
+				<div class="panel">
+					<ul>
+					  <li>variables,conditional statements</li>
+					  <li>loops,functions</li>
+				</div>
+			
+				<button class="accordion">Week-2</button>
+				<div class="panel">
+					<ul>
+					  <li>Lists,tuples</li>
+					  <li>Dictionaries</li>
+					  <li>Sets</li></ul>
+				</div>
+				<button class="accordion">Week-3</button>
+				<div class="panel">
+					<ul>
+					  <li>Modules,packages</li>
+					  <li>Strings </li>
+					  <li>Exceptions</li></ul>
+				</div>
+				<button class="accordion">Week-4</button>
+				<div class="panel">
+					<ul>
+					  <li>File Handling</li>
+					  <li>OOP concepts</li>
+		
+				</div>
+				<button class="accordion">Week-5</button>
+				<div class="panel">
+					<ul>
+					  <li>Python Project (Using Basics)</li>
+				</div>
+			</div>
+		</div>
+		<br><br><br>
+		<div class ="row">
+			<div class = "col-md-1"></div>
+			<div class = "col-md-5 box" id = "dm">
+		
+			<div class="img_container">
+			  <img src="dm.jpg" alt="Snow" style="width:100%; height:200px;">
+			  <div style = "color:red;text-align:center;"><h3>Discrete Mathematics</h3></div>
+			</div>
+			<hr></hr>
+				<button class="accordion">Week-1</button>
+				<div class="panel">
+					<ul>
+					  <li>Mathematical Logic</li>
+					  <li>Logic and Proofs</li>
+					  <li>Counting</li>
+				</div>
+			
+				<button class="accordion">Week-2</button>
+				<div class="panel">
+					<ul>
+					  <li>Relations and functions</li>
+					  <li>Generating Functions</li>
+					</ul>
+				</div>
+				<button class="accordion">Week-3</button>
+				<div class="panel">
+					<ul>
+					  <li>Advanced Counting Techniques</li>
+					  <li>Group Theory</li>
+					</ul>
+				</div>
+				<button class="accordion">Week-4</button>
+				<div class="panel">
+					<ul>
+					  <li>Group Theory</li>
+					  <li>Graph Theory</li>
+				</div>
+				
+			</div>
+			<div class = "col-md-1"></div>
+			<div class = "col-md-5 box" id = "apt">
+		
+			<div class="img_container">
+			  <img src="apt.jpeg" alt="Snow" style="width:100%; height:200px;">
+			  <div style = "color:red;text-align:center;"><h3>Quantitative Aptitude</h3></div>
+			</div>
+			<hr></hr>
+				<button class="accordion">Week-1</button>
+				<div class="panel">
+					<ul>
+					  <li>Time And Distance</li>
+					  <li>Coordinate Geometry</li>
+				</div>
+			
+				<button class="accordion">Week-2</button>
+				<div class="panel">
+					<ul>
+					  <li>Time and Work</li>
+					  <li>Ratios and Proportions</li>
+					  <li>Angles</li>
+					</ul>
+				</div>
+				<button class="accordion">Week-3</button>
+				<div class="panel">
+					<ul>
+					  <li>2d-Geometry</li>
+					  <li>Relations</li>
+					  <li>Percentages</li>
+					</ul>
+				</div>
+				<button class="accordion">Week-4</button>
+				<div class="panel">
+					<ul>
+					  <li>Number System</li>
+					  <li>Inequalities</li>
+					  <li>Miscelleneous Problems on ages and other topics</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	</body>
+</html>
+	<br><br><br>
+		<div class = "row">
+			<div class =  "col-md-1"></div>
+			<div class = "col-md-10 box" id = "web">
+				<div class = "col-md-2"></div>
+				<div class="img_container">
+				  <img src="web.jpg" alt="Snow" style="width:70%; height:250px;">
+				  <div style = "color:red;text-align:center;"><h3>Web Design</h3></div>
+				</div>
+
+				<div class = "row">
+					<div class =  "col-md-1"></div>
+					<div class = "col-md-5">
+							<button class="accordion">Week-1</button>
+				
+							<div class="panel">
+								<ul>
+								  <li> Basic HTML concepts </li>
+								  <li>Tags used in HTML</li>
+								  <li>Simple web page using html</li></ul>
+							</div>
+						
+							<button class="accordion">Week-2</button>
+							<div class="panel">
+								<ul>
+								  <li> Examples using HTML</li>
+								</ul>
+							</div>
+							<button class="accordion">Week-3</button>
+							<div class="panel">
+								<ul>
+								  <li>Basic css concepts</li>
+								  <li>Classes,ids and Selectors in CSS</li>
+								</ul>
+							</div>	
+								</div>
+					
+					<div class =  "col-md-5">
+					
+								<button class="accordion">Week-4</button>
+								<div class="panel">
+									<ul>
+									  <li>Examples using css</li>
+									</ul>
+								</div>
+							
+								<button class="accordion">Week-5</button>
+								<div class="panel">
+									<ul>
+									  <li>Concepts in javascript</li>
+									  <li>Examples using javscript</li>
+									</ul>
+								</div>
+								<button class="accordion">Week-6</button>
+								<div class="panel">
+									<ul>
+									  <li>Project Using above concepts</li>
+									</ul>
+								</div>
+					</div>
+					<div class =  "col-md-1"></div>
+				</div>
+			</div>
+			<div class =  "col-md-1"></div>
+		</div>
+		<hr></hr>
+		<div class = "about" id = "about">
+		<div class = "center">
+		  <div class="w3-card-4" style="width:100%;">
+			<header class="w3-container w3-blue">
+			  <center><h1 style = "color:black;">About us</h1></center>
+			</header>
+
+			<div class="w3-container">
+			  <b><i><h3 style = "font-family: 'Brush Script MT', cursive;">We are passionate group of 15 people who are students just like you. We would like to respond to the current crisis
+					Our motto is to <span style = "color:red">#LearnAndDonate</span> We find it the most productive way of spending our lockdown.If you believe in us and are ready to make a change
+					Come and Join TogetherForChange.</h3></i></b>
+			</div>
+
+			<footer class="w3-container w3-blue">
+			  <h5><a href = "mailto: togetherforachange199@gmail.com"><img class = "gmail-icon raise" src = "gmail.jpg" ></img></a></h5>
+			</footer>
+		  </div>
+	</div>
+<script>
+var accordions = document.getElementsByClassName("accordion");
+for (let i = 0; i < accordions.length; i++) {
+    accordions[i].addEventListener("click",function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+    });
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+
+
+
+
+
+
